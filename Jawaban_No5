@@ -1,0 +1,27 @@
+>> [zeros poles] = zpkdata(P_pend,'v')
+
+zeros =
+
+     0
+
+
+poles =
+
+    5.8648
+   -5.8979
+   -0.0625
+
+>> [zeros poles] = zpkdata(P_cart,'v')
+
+zeros =
+
+    4.7556
+   -4.7556
+
+
+poles =
+
+         0
+    5.8648
+   -5.8979
+   -0.0625
