@@ -1,0 +1,31 @@
+>> step_info = lsiminfo(y,t);
+cart_info = step_info(1)
+pend_info = step_info(2)
+
+
+cart_info = 
+
+  struct with fields:
+
+    TransientTime: 9.9961
+     SettlingTime: 9.9961
+             Peak: 1.3878e+23
+         PeakTime: 10
+              Min: 0
+          MinTime: 0
+              Max: 1.3878e+23
+          MaxTime: 10
+
+
+pend_info = 
+
+  struct with fields:
+
+    TransientTime: 9.9961
+     SettlingTime: 9.9961
+             Peak: 9.3507e+23
+         PeakTime: 10
+              Min: 0
+          MinTime: 0
+              Max: 9.3507e+23
+          MaxTime: 10
